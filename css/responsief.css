@@ -1,0 +1,499 @@
+@media only screen and (min-width : 320px) {
+    html {
+      font-size: 55%;
+    }
+  
+    .container__form {
+      width: 90%;
+      margin-top: 10rem;
+    }
+  
+    .container__form .widget {
+      width: 80%;
+    }
+  
+    input::placeholder {
+      font-size: 1rem;
+    }
+  
+    .container__form .widget .box label {
+      font-size: 1.5rem;
+    }
+  
+    #file-box {
+      padding: .5rem 0 2rem 0;
+    }
+  
+    .container__form .widget .buttons button {
+      padding: 1.5rem;
+    }
+  
+    /*start melding*/
+    .message-container {
+      left: 15%;
+      width: 60%;
+    }
+  
+    .message-container .message-box {
+      padding: 0;
+    }
+  
+    .message-container .message-box .text-message {
+      font-size: .8rem;
+    }
+  
+    /*end melding*/
+    .container--images-cards {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+    }
+  
+    .container--images-cards>.card {
+      height: 280px;
+    }
+  
+    .container--images-cards .card h3,
+    span,
+    strong {
+      font-size: 1.5rem;
+    }
+  
+    .container--images-cards .card .img {
+      height: 150px;
+    }
+  
+    .container--images-cards .card .info {
+      margin-top: .5rem;
+      font-size: 1.3rem;
+    }
+  
+    .container-main-error .main-error {
+      top: 2rem;
+      left: 25%;
+    }
+  
+    .unset {
+      display: none !important;
+    }
+  
+    /* information page start */
+    section.read-data>.container-foto {
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      background-color: #009578;
+    }
+  
+    section.read-data>.container-foto>.right-col {
+      flex-basis: 60%;
+      max-width: 90%;
+      position: relative;
+      border-radius: 20px;
+    }
+  
+    section.read-data .container-foto .left-col::-webkit-scrollbar {
+      width: 0;
+    }
+  
+    /* infromation page end */
+    /* filter box start*/
+    a.home {
+      left: 0;
+      top: 500px;
+    }
+  
+    .filter-container {
+      top: 10px;
+      left: 40px;
+      width: 70%;
+      position: relative;
+    }
+  
+    #checkin {
+      position: absolute;
+      z-index: 1000;
+    }
+  
+    .click-btn {
+      width: 20%;
+    }
+  
+    .click-btn i {
+      font-size: 2rem;
+    }
+  
+    .click-btn span {
+      display: none;
+    }
+  
+    #checkin:checked {
+      transform: translate(230px, -320px);
+      width: 10%;
+      height: 30px;
+    }
+  
+    .filter-container .widget button[type="submit"] {
+      width: 50%;
+      margin: auto;
+      padding: 0;
+      margin-top: 20px;
+    }
+  
+    .filter-container .widget .thema .buttons {
+      flex-direction: column;
+      width: 30%;
+      margin: auto;
+    }
+  
+    .filter-container .widget .thema .buttons button {
+      padding: .2rem;
+      font-size: 1rem;
+    }
+  
+    .filter-container .widget {
+      flex-direction: column;
+      line-height: 10px;
+    }
+  
+    /* filter box end */
+  }
+  
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px) {
+    html {
+      font-size: 50%;
+    }
+  
+    .container__form {
+      width: 75%;
+    }
+  
+    .container__form .widget {
+      width: 75%;
+    }
+  
+    .container__form .widget .box label {
+      font-size: 1.7rem;
+    }
+  
+    input::placeholder {
+      font-size: 1.4rem;
+    }
+  
+    .container__form .widget .buttons button {
+      padding: 1.7rem;
+    }
+  
+    .container--images-cards {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+    }
+  
+    /*start melding*/
+    .message-container {
+      left: 30%;
+      width: 40%;
+    }
+  
+    .message-container .message-box {
+      padding: 0;
+    }
+  
+    .message-container .message-box .text-message {
+      font-size: 1rem;
+    }
+  
+    /*end melding*/
+    .container--images-cards>.card {
+      height: 280px;
+    }
+  
+    .container--images-cards .card h3,
+    span,
+    strong {
+      font-size: 1.7rem;
+    }
+  
+    .container--images-cards .card .img {
+      height: 150px;
+    }
+  
+    .container--images-cards .card .info {
+      margin-top: 1rem;
+      font-size: 1.4rem;
+    }
+  
+    .container-main-error .main-error {
+      top: 2rem;
+      left: 31%;
+    }
+  
+    .unset {
+      display: none !important;
+    }
+  
+    /* information page start */
+    section.read-data>.container-foto {
+      flex-direction: column-reverse;
+      justify-content: space-around;
+    }
+  
+    section.read-data>.container-foto>.right-col {
+      flex-basis: 60%;
+      max-width: 60%;
+      position: relative;
+      border-radius: 20px;
+    }
+  
+    section.read-data>.container-foto>.left-col {
+      width: 65%;
+    }
+  
+    /* infromation page end */
+  }
+  
+  /*Small Devices, Tablets*/
+  @media only screen and (min-width : 768px) {
+    html {
+      font-size: 60%;
+    }
+  
+    .container__form {
+      width: 70%;
+    }
+  
+    section.read-data .container-foto .left-col::-webkit-scrollbar {
+      width: 15px;
+    }
+  
+    .container__form .widget {
+      width: 70%;
+    }
+  
+    .container__form .widget .box label {
+      font-size: 1.7rem;
+    }
+  
+    input::placeholder {
+      font-size: 1.4rem;
+    }
+  
+    .container__form .widget .buttons button {
+      padding: 1.7rem;
+    }
+  
+    .container--images-cards {
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+    }
+  
+    .container--images-cards>.card {
+      height: 290px;
+    }
+  
+    .container--images-cards .card .img {
+      height: 150px;
+    }
+  
+    .container--images-cards .card h3,
+    span,
+    strong {
+      font-size: 1.3rem;
+    }
+  
+    .container--images-cards .card .info {
+      margin-top: .5rem;
+      font-size: 1.5rem;
+    }
+  
+    /*start melding*/
+    .message-container {
+      left: 33%;
+      width: 35%;
+    }
+  
+    .message-container .message-box {
+      padding: 10px;
+    }
+  
+    .message-container .message-box .text-message {
+      font-size: 1.3rem;
+    }
+  
+    /*end melding*/
+    .container-main-error .main-error {
+      top: 2rem;
+      left: 43%;
+    }
+  
+    .container__form .widget .input-box .unset .message-box__naam,
+    .container__form .widget .input-box .unset .message-box__des {
+      line-height: 1.2rem;
+    }
+  
+    .container__form .widget .input-box .unset .message-box__naam span,
+    .container__form .widget .input-box .unset .message-box__des span {
+      font-size: 1rem;
+    }
+  
+    .unset {
+      display: block !important;
+    }
+  
+    /* information page start */
+    section.read-data>.container-foto {
+      flex-direction: row;
+      justify-content: start;
+      background-color: unset;
+    }
+  
+    section.read-data>.container-foto>.right-col {
+      flex-basis: 60%;
+      max-width: 60%;
+      border-radius: unset !important;
+    }
+  
+    section.read-data>.container-foto>.left-col {
+      -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+    }
+  
+    /* infromation page end */
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    html {
+      font-size: 90%;
+    }
+  
+    .container__form {
+      width: 50%;
+      margin-top: 2rem;
+    }
+  
+    .container__form .widget {
+      width: 60%;
+    }
+  
+    input::placeholder {
+      font-size: unset;
+    }
+  
+    .container__form .widget .box label {
+      font-size: unset;
+    }
+  
+    #file-box {
+      padding: unset;
+    }
+  
+    .container__form .widget .buttons button {
+      padding: 20px 20px;
+    }
+  
+    .container--images-cards {
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      -ms-grid-rows: 400px;
+      grid-template-rows: 400px;
+    }
+  
+    .container--images-cards>.card {
+      height: 400px;
+    }
+  
+    .container--images-cards .card h3,
+    span,
+    strong {
+      font-size: unset;
+    }
+  
+    .container--images-cards .card .img {
+      height: 200px;
+    }
+  
+    .container--images-cards .card .info {
+      margin-top: .5rem;
+      font-size: unset;
+    }
+  
+    .unset {
+      display: block !important;
+    }
+  
+    .container__form .widget .input-box .unset .message-box__naam,
+    .container__form .widget .input-box .unset .message-box__des {
+      line-height: 1.5rem;
+    }
+  
+    .container__form .widget .input-box .unset .message-box__naam span,
+    .container__form .widget .input-box .unset .message-box__des span {
+      font-size: 1.1.25rem;
+    }
+  
+    /* filter box start*/
+    a.home {
+      left: 10px;
+      top: 12%;
+    }
+  
+    .filter-container {
+      width: 17%;
+      top: 23%;
+      left: 10px;
+      position: fixed;
+    }
+  
+    #checkin {
+      position: fixed;
+      z-index: 1000;
+    }
+  
+    .click-btn {
+      width: unset;
+    }
+  
+    .click-btn i {
+      font-size: 2rem;
+    }
+  
+    .click-btn span {
+      display: unset;
+    }
+  
+    #checkin:checked {
+      transform: translate(230px, -150px);
+      width: 2%;
+      height: 30px;
+    }
+  
+    .filter-container .widget button[type="submit"] {
+      width: 50%;
+      margin: auto;
+      padding: 0;
+      margin-top: 20px;
+    }
+  
+    .filter-container .widget .thema .buttons {
+      flex-direction: row;
+      width: 100%;
+    }
+  
+    .filter-container .widget .thema .buttons button {
+      padding: 8px 8px;
+      font-size: unset;
+    }
+  
+    .filter-container .widget {
+      flex-direction: column;
+      line-height: unset;
+    }
+  
+    /* filter box end */
+  }
