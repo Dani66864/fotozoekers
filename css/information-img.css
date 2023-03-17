@@ -179,6 +179,18 @@ section.read-data .container-foto {
        object-fit: fill;
     border-radius: 10px;
     border: 2px solid #000;
+    animation: image-fill 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  @keyframes image-fill{
+    0%, 25%, 30%{
+      scale: .1;
+      opacity: 0;
+    }
+    75%{
+      scale: 1; 
+      opacity: 1;
+    }
   }
   
   @-webkit-keyframes letter {

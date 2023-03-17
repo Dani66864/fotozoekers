@@ -23,7 +23,7 @@
             </div>
             <ul class="list-items">
                 <li class="item">
-                <a href="<?php URLROOT ?>search"><span class="item-text">Get alle fotos</span></a>
+                    <a href="<?php URLROOT ?>search"><span class="item-text">Filters wissen</span></a>
                 </li>
                 <li class='item'>
                     <span class='checkbox'>
@@ -46,9 +46,9 @@
                     </span>
                     <span class='item-text'>naam</span>
                 </li>
-                 
+
             </ul>
-            
+
             <button type='submit'>Zoeken</button>
         </form>
     </div>
